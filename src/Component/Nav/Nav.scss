@@ -1,0 +1,29 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  .Nav-title {
+    margin-right: 4rem;
+    margin-left: 2rem;
+    display: flex;
+    img {
+      width: 6rem;
+    }
+  }
+  .Nav-li {
+    display: flex;
+    justify-content: left;
+    li {
+      list-style: none;
+      margin: 2rem;
+      background-color: #c4c187;
+      padding: 0.25rem 1rem 0.25rem 1rem;
+      border: 1px solid #dadada;
+      cursor: pointer;
+      color: #495356;
+    }
+  }
+  .Nav-search {
+    margin: 2rem;
+  }
+}
