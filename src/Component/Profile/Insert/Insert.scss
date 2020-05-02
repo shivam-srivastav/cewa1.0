@@ -1,0 +1,136 @@
+.insert{
+    display: flex;
+    // text-align: center;
+    width:400px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .insert-before{
+        transform: translate(30%,30%);
+        display: flex;
+        // position: relative;
+        // min-width: 400px;
+        // flex-wrap: wrap;
+        form{
+            border: 1px solid black;
+            width: 380PX;
+            // height:200PX;
+            position: relative;
+            .insert-before-class{
+                margin: 1rem;
+                input{
+                    border: none;
+                }
+            }
+            .insert-before-image{
+                margin:2rem;
+                input{
+
+                }
+            }
+            .insert-before-button{
+                display: block;
+                height: 2rem;
+
+                padding-left: .5rem;
+                text-align: center;
+                width: 100%;
+                button{
+                    width: 112px;
+                    height: 35px;
+                    padding: .5rem;
+                    border: none;
+                    background-color:#504cff;
+                    color: #f1f1f1;
+                    font-size: 16px;
+                    cursor: pointer;
+                    margin-right: 1rem;
+                    
+                }
+                button:hover{
+                    background-color: #3a37b9;
+                }
+            }
+            .dropdown{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                // transform: translate(50%,50%);
+
+                .dropbtn {
+                    background-color: #fd51d7;
+                    color: white;
+                    text-align: center;
+                    width: 6rem;
+                    margin-top: 1rem;
+                    padding:.5rem;
+                    font-size: 16px;
+                    border: none;
+                    cursor: pointer;
+                  }
+                  .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f1f1f1;
+                    min-width: 6.5rem;
+                    margin-top: 3.2rem;
+                    // border: 1px solid black;
+                    // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1;
+                    padding: .25rem;
+                    
+                  div {
+                    color: black;
+                    padding: .25rem;
+                    // text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 600;
+                    display: block;
+                    cursor: pointer;
+                  }
+                  div:hover{
+                      background-color: grey;
+
+                  }
+                  }
+            }
+            // .dropdown-content a:hover {background-color: #ddd;}
+            .dropdown:hover .dropbtn {background-color: #ad3592fa;}
+            .dropdown:hover .dropdown-content {display: block;}
+        }
+        .insert-before-display{
+            width: 380PX;
+            border: 1px solid black;
+            display: flex;
+            position: relative;
+            .insert-image{
+                    width: 382px;
+                    height: 190px;
+            }
+            
+            .insert-final{
+                position: fixed;
+                // height: 152px;
+                button{
+                transform: translate(100%,250%);
+                position: fixed;
+                border: none;
+                color:#f1f1f1;
+                background-color: #a54fec;
+                height: 2rem;
+                font-size: 16px;
+                padding-left: .5rem;
+                width: 8rem;
+                cursor: pointer;
+                
+            }
+            button:hover{
+                background-color: #6b2c9e;
+
+            }
+        }
+        }
+    }
+    .insert-after{
+    }
+}
