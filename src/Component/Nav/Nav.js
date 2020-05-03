@@ -20,9 +20,9 @@ const Nav = () => {
         <Link to="./Galaries">
           <li>Galary</li>
         </Link>
-        <Link to="./member">
+        <a href="https://forms.gle/nhC3RKXS1Vqf7Jhq9">
           <li>For Members</li>
-        </Link>
+        </a>
         <Link to="./contacts">
           <li>Contact Us</li>
         </Link>
