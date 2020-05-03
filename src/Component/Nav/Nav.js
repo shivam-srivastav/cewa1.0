@@ -17,8 +17,8 @@ const Nav = () => {
         <Link to="./Programs">
           <li>Our Program</li>
         </Link>
-        <Link to="./Galaries">
-          <li>Galary</li>
+        <Link to="./gallery">
+          <li>Gallery</li>
         </Link>
         <a href="https://forms.gle/nhC3RKXS1Vqf7Jhq9">
           <li>For Members</li>

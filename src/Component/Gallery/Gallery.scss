@@ -1,0 +1,12 @@
+.gallery {
+  text-align: center;
+  width: 100vw;
+  .row {
+    .col {
+      img {
+        width: 600px;
+        margin: 1rem;
+      }
+    }
+  }
+}

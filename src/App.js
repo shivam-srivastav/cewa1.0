@@ -4,6 +4,7 @@ import Home from "./Component/Home/Home";
 import Nav from "./Component/Nav/Nav";
 import Footer from "./Component/Footer/Footer";
 import Contact from "./Component/Contact Us/Contact";
+import Gallery from "./Component/Gallery/Gallery";
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
           <Home />
           <Footer />
         </Route>
-        <Route exact path="/aboutus">
-          About Us
+        <Route exact path="/gallery">
+          <Gallery />
         </Route>
         <Route exact path="/contacts">
           <Contact />
