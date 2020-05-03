@@ -92,7 +92,7 @@ const Home = () => {
         <div className="founder">
           <img src={shiwam} alt="shivam" />
           <div>
-            <h3>Founder: Beast</h3>
+            <h3>Developer: Beast</h3>
           </div>
         </div>
       </div>
