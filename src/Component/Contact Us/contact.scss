@@ -1,9 +1,18 @@
 .contact {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   h1 {
-    justify-content: center;
+    // justify-content: center;
+    background-color: #c4c187;
     margin-bottom: 5rem;
+    padding-left: 20%;
+  }
+  div {
+    margin-left: 20%;
+    text-align: left;
+    li {
+      list-style: none;
+    }
   }
 }
