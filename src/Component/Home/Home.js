@@ -1,15 +1,63 @@
 import React from "react";
-import cewa from "../../Assets/image/img.jpg";
+import slide1 from "../../Assets/image/slide1.jpg";
+import slide2 from "../../Assets/image/slide2.jpg";
+import slide3 from "../../Assets/image/slide3.jpg";
+import slide4 from "../../Assets/image/slide4.jpg";
 import shiwam from "../../Assets/image/shivam.jpg";
 import event1 from "../../Assets/image/1.jpg";
 import event2 from "../../Assets/image/2.jpg";
 import event3 from "../../Assets/image/3.jpg";
+import Carousel from "react-bootstrap/Carousel";
+
 import "./Home.scss";
 
 const Home = () => {
   return (
     <div className="Home">
-      <div className="Home-container-text">
+      <Carousel className="carousel">
+        <Carousel.Item>
+          <img className="d-block w-100" src={slide1} alt="First slide" />
+          <Carousel.Caption>
+            <h3 className="corousel-h1">Face of Truth</h3>
+            <p className="corousel-p">
+              “A person's a person, no matter how small.”
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={slide2} alt="Third slide" />
+
+          <Carousel.Caption>
+            <h3 className="corousel-h1">Keep Smiling</h3>
+            <p className="corousel-p">
+              There can be no keener revelation of a society's soul than the way
+              in which it treats its children
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={slide3} alt="Third slide" />
+
+          <Carousel.Caption>
+            <h3 className="corousel-h1">We are the Future</h3>
+            <p className="corousel-p">
+              Children are likely to live up to what you believe of them.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={slide4} alt="Third slide" />
+
+          <Carousel.Caption>
+            <h3 className="corousel-h1">Gods of Heaven</h3>
+            <p className="corousel-p">
+              Children must be taught how to think, not what to think..
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+
+      {/* <div className="Home-container-text">
         <h1>
           CEWA:
           <br />
@@ -23,7 +71,7 @@ const Home = () => {
       </div>
       <div className="Home-container-img">
         <img src={cewa} alt="cewa" />
-      </div>
+      </div> */}
       <div className="Home-vision">
         <div className="vision-text">
           <h2>Vision</h2>

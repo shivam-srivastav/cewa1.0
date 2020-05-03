@@ -1,4 +1,18 @@
 .Home {
+  .carousel-caption {
+    top: 40%;
+  }
+  .corousel-h1 {
+    color: #ffc000;
+    font-weight: 600;
+    font-size: 5.2rem;
+    top: 40%;
+    line-height: 5.2rem;
+  }
+  .corousel-p {
+    color: #c4c187;
+  }
+
   .Home-container-img {
     margin: 0;
     img {
@@ -37,7 +51,11 @@
     text-align: center;
     align-items: center;
   }
-
+  .corousel {
+    h1 {
+      color: red;
+    }
+  }
   .Home-vision {
     display: flex;
     margin-left: 8rem;
