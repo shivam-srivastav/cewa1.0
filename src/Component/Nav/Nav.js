@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.scss";
-import logo from "../../Assets/image/pp.jpeg";
+import logo from "../../Assets/image/cewa.svg";
 const Nav = () => {
   const [NavButton, setNavButton] = useState(false);
   const onHandleButton = () => {
