@@ -13,8 +13,9 @@
   .Nav-li {
     display: flex;
     justify-content: left;
-    z-index: 3;
+    z-index: 16;
     li {
+      z-index: 16;
       list-style: none;
       margin: 2rem;
       background-color: #c4c187;

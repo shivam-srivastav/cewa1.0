@@ -4,11 +4,13 @@
   flex-direction: column;
   .carousel-caption {
     top: 40%;
+    z-index: 2;
   }
   .corousel-h1 {
     color: #ffc000;
     font-weight: 600;
     font-size: 5.2rem;
+    z-index: 2;
     top: 40%;
     line-height: 5.2rem;
   }
@@ -34,7 +36,7 @@
     margin-top: 2rem;
     .vision-text {
       background-color: #c4c187;
-      min-width: 26rem;
+      min-width: 22rem;
       width: 45%;
       margin-bottom: 2rem;
       h2 {
@@ -49,13 +51,12 @@
         font-weight: 300;
         color: #495356;
       }
-      width: 50%;
       padding: 1rem;
     }
     .founder {
       display: flex;
       background-color: #c4c1879e;
-      min-width: 26rem;
+      min-width: 22rem;
       width: 45%;
       flex-direction: column;
       margin-bottom: 2rem;
@@ -99,7 +100,7 @@
     }
   }
   h1 {
-    margin-left: 8rem;
+    // margin-left: 8rem;
   }
   .Event-update {
     margin-top: 2rem;
@@ -112,6 +113,8 @@
     div {
       margin-left: 2rem;
       margin-right: 2rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
       p {
         max-width: 360px;
         text-align: center;
