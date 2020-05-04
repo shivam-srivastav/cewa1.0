@@ -26,4 +26,44 @@
   .Nav-search {
     margin: 2rem;
   }
+  .Nav-button {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .Nav {
+    .Nav-li {
+      display: none;
+    }
+    .Nav-search {
+      display: none;
+    }
+    .Nav-button {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin-right: 2rem;
+    }
+    .Nav-button-list {
+      position: absolute;
+      background-color: #ffff;
+      // border: 1px solid black;
+      left: 0%;
+      z-index: 3;
+      width: 100%;
+      top: 6rem;
+      li {
+        list-style: none;
+        justify-content: center;
+        margin: 0.2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color: #bdb979;
+        padding: 0.25rem 0.2rem 0.25rem 0.2rem;
+        border: 1px solid #dadada;
+        cursor: pointer;
+        color: #495356;
+      }
+    }
+  }
 }

@@ -96,6 +96,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <br />
+      <br />
       <h1>Events and Updates</h1>
       <div className="Event-update">
         <div className="event1">
