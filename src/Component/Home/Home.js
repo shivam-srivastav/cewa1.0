@@ -4,9 +4,12 @@ import slide2 from "../../Assets/image/slide2.jpg";
 import slide3 from "../../Assets/image/slide3.jpg";
 import slide4 from "../../Assets/image/slide4.jpg";
 import shiwam from "../../Assets/image/shivam.jpg";
-import event1 from "../../Assets/image/1.jpg";
-import event2 from "../../Assets/image/2.jpg";
-import event3 from "../../Assets/image/3.jpg";
+import g3 from "../../Assets/image/g3.jpg";
+import g5 from "../../Assets/image/g5.jpg";
+import g8 from "../../Assets/image/g6.jpg";
+// import event1 from "../../Assets/image/1.jpg";
+// import event2 from "../../Assets/image/2.jpg";
+// import event3 from "../../Assets/image/3.jpg";
 import Carousel from "react-bootstrap/Carousel";
 
 import "./Home.scss";
@@ -101,21 +104,21 @@ const Home = () => {
       <h1>Events and Updates</h1>
       <div className="Event-update">
         <div className="event1">
-          <img src={event1} alt="event1" />
+          <img src={g3} alt="event1" />
           <p>
             Smile Foundation launches program to provide support to families
             affected by lockdown
           </p>
         </div>
         <div className="event1">
-          <img src={event2} alt="event2" />
+          <img src={g5} alt="event2" />
           <p>
             Smile Foundation's Child for Child department's national campaign:
             "Students say….Let's Win the Fight over Corona"
           </p>
         </div>
         <div className="event1">
-          <img src={event3} alt="event3" />
+          <img src={g8} alt="event3" />
           <p>
             Corporate and Youth run for child education at Tata Mumbai Marathon
             2020

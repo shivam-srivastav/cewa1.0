@@ -13,6 +13,7 @@
   .Nav-li {
     display: flex;
     justify-content: left;
+    z-index: 3;
     li {
       list-style: none;
       margin: 2rem;
