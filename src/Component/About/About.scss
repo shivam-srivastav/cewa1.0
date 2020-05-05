@@ -1,0 +1,27 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    background-color: red;
+    padding-left: 20%;
+    background-color: #c4c187;
+    margin-bottom: 5rem;
+  }
+  div {
+    margin-left: 20%;
+    text-align: left;
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 800px) {
+  .about {
+    h1 {
+      padding-left: 10%;
+    }
+    div {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
+}

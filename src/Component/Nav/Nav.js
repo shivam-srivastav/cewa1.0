@@ -35,7 +35,7 @@ const Nav = () => {
         <input type="text" placeholder="Search"></input>
       </div>
       <div className="Nav-button" onClick={onHandleButton}>
-        <h1>=</h1>
+        <h1>≡</h1>
         {NavButton && (
           <div className="Nav-button-list">
             <Link to="./about">
