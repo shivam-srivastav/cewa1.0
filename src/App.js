@@ -6,7 +6,6 @@ import Footer from "./Component/Footer/Footer";
 import Contact from "./Component/Contact Us/Contact";
 import Gallery from "./Component/Gallery/Gallery";
 import About from "./Component/About/About";
-
 function App() {
   return (
     <Router>
@@ -14,7 +13,6 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
-
           <Footer />
         </Route>
         <Route exact path="/gallery">
