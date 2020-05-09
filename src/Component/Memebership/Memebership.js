@@ -8,7 +8,12 @@ const Membership = () => {
       <div className="title">
         <h2>Membership Form</h2>
       </div>
-      <form data-netlify="true" action="POST">
+      <form
+        name="membership"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        method="POST"
+      >
         <div className="Logo">
           <img src={logo} alt="logo" />
         </div>
@@ -94,7 +99,10 @@ const Membership = () => {
             actively participate in all the events conducted by the association.
           </p>
         </div>
-        <div data-netlify-recaptcha="true"></div>
+        <div className="logo">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+        <input type="hidden" name="form-name" value="membership" />
         <div className="submit">
           <button>Submit</button>
         </div>
