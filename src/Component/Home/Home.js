@@ -10,6 +10,7 @@ import g3 from "../../Assets/image/g3.jpg";
 import g5 from "../../Assets/image/g5.jpg";
 import g8 from "../../Assets/image/g6.jpg";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 
 import "./Home.scss";
 
@@ -103,11 +104,11 @@ const Home = () => {
             <hr />
             <h3>Become a part of CEWA</h3>
             <div>
-              <a href="https://forms.gle/nhC3RKXS1Vqf7Jhq9">
+              <Link to="https://forms.gle/nhC3RKXS1Vqf7Jhq9">
                 <span>
                   <p className="joinus">JOIN US</p>
                 </span>
-              </a>
+              </Link>
             </div>
             <hr />
           </div>
