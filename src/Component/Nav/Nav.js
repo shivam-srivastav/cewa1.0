@@ -26,7 +26,7 @@ const Nav = () => {
         <Link to="./gallery">
           <li>Gallery</li>
         </Link>
-        <a href="https://forms.gle/nhC3RKXS1Vqf7Jhq9">
+        <a href="/membership">
           <li>For Members</li>
         </a>
         <Link to="./contacts">
