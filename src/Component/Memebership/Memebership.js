@@ -8,7 +8,7 @@ const Membership = () => {
       <div className="title">
         <h2>Membership Form</h2>
       </div>
-      <form name="members" data-netlify="true" method="POST">
+      <form data-netlify="true" action="POST">
         <div className="Logo">
           <img src={logo} alt="logo" />
         </div>
