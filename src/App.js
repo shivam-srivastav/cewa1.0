@@ -6,6 +6,7 @@ import Footer from "./Component/Footer/Footer";
 import Contact from "./Component/Contact Us/Contact";
 import Gallery from "./Component/Gallery/Gallery";
 import About from "./Component/About/About";
+import Membership from "./Component/Memebership/Memebership";
 function App() {
   return (
     <Router>
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/membership">
+          <Membership />
         </Route>
       </Switch>
     </Router>
