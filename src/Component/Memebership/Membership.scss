@@ -12,8 +12,10 @@
       margin-bottom: 3rem;
     }
     form {
+      background-color: #c4c1877a;
       .Logo {
         text-align: center;
+        margin-top: 1rem;
         img {
           width: 7rem;
           margin-bottom: 1rem;
@@ -102,6 +104,9 @@
     align-items: center;
 
     .title {
+      h2 {
+        margin: 1rem;
+      }
       margin-bottom: 3rem;
       padding-left: 10%;
       width: 100%;
@@ -111,6 +116,7 @@
       margin-bottom: 2rem;
       display: flex;
       padding: 2rem;
+      background-color: #c4c1877a;
       border: 2px solid #c4c187;
       flex-direction: column;
       width: 45rem;
@@ -135,7 +141,7 @@
         select {
           width: 16rem;
           margin-right: 5rem;
-          background-color: transparent;
+          background-color: #fff;
           border: none;
           font-size: 18px;
           padding-left: 1rem;

@@ -22,19 +22,19 @@ const Membership = () => {
           <div className="Mem">
             <input
               type="text"
-              name=" Name of Applicant"
+              name="name"
               size="25"
               placeholder="Name of Applicant"
             />
           </div>
           <div className="Mem">
-            <input type="text" name="Age" size="25" placeholder="Age" />
+            <input type="text" name="age" size="25" placeholder="Age" />
           </div>
         </div>
 
         <div className="pair">
           <div className="Mem">
-            <select name="Sex" placeholder="Sex">
+            <select name="sex" placeholder="Sex">
               <option>Sex</option>
               <option>Male</option>
               <option>Female</option>
@@ -45,7 +45,7 @@ const Membership = () => {
             <input
               type="text"
               size="25"
-              name="Contact No."
+              name="phone"
               placeholder="Contact Number"
             />
           </div>
@@ -54,7 +54,7 @@ const Membership = () => {
           <div className="Mem">
             <input
               type="text"
-              name="Occupation"
+              name="occupation"
               size="25"
               placeholder="Occupation"
             />
@@ -73,12 +73,12 @@ const Membership = () => {
             <input
               type="text"
               size="25"
-              name="Mailing Address"
+              name="mailingAddress"
               placeholder="Mailing Address"
             />
           </div>
           <div className="Mem">
-            <input type="email" name="Email" size="25" placeholder="Email" />
+            <input type="email" name="email" size="25" placeholder="Email" />
           </div>
         </div>
         <div className="pair">
@@ -87,7 +87,7 @@ const Membership = () => {
               rows="6"
               cols="28"
               size="25"
-              name="Describe"
+              name="description"
               placeholder="Describe the reason for wanting to be a memeber?"
             />
           </div>

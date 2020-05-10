@@ -6,7 +6,7 @@ import Footer from "./Component/Footer/Footer";
 import Contact from "./Component/Contact Us/Contact";
 import Gallery from "./Component/Gallery/Gallery";
 import About from "./Component/About/About";
-import Membership from "./Component/Memebership/Memebership";
+import Membership from "./Component/Memebership/Membership1";
 function App() {
   return (
     <Router>
