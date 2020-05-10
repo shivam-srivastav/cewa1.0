@@ -1,6 +1,7 @@
 import React from "react";
 import "./Membership.scss";
 import logo from "../../Assets/image/cewa.svg";
+import { Redirect } from "react-router-dom";
 
 const encode = (data) => {
   return Object.keys(data)
@@ -27,12 +28,13 @@ class Membership extends React.Component {
     this.setState({ [e.target.name]: e.target.value });
   };
   onSubmitHandle = (e) => {
-    fetch("./success", {
+    fetch("/success", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "membership", ...this.state }),
     })
       .then(() => alert("Success! "))
+      .then(() => Redirect("../"))
       .catch((err) => alert(err));
   };
   render() {
