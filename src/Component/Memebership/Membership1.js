@@ -30,12 +30,10 @@ class Membership extends React.Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state }),
+      body: encode({ "form-name": "membership", ...this.state }),
     })
       .then(() => alert("Success!"))
       .catch((err) => alert(err));
-
-    e.preventDefault();
   };
   render() {
     return (
@@ -43,8 +41,12 @@ class Membership extends React.Component {
         <div className="title">
           <h2>Membership Form</h2>
         </div>
-        <form onSubmit={this.onSubmitHandle} onClick={this.onClickHandle}>
-          <input type="hidden" name="form-name" value="membership" />
+        <form
+          netlify
+          onSubmit={this.onSubmitHandle}
+          onChange={this.onClickHandle}
+        >
+          {/* <input type="hidden" name="form-name" value="membership" /> */}
           <div className="Logo">
             <img src={logo} alt="logo" />
           </div>
@@ -135,7 +137,7 @@ class Membership extends React.Component {
             <div data-netlify-recaptcha="true"></div>
           </div>
           <div className="submit">
-            <button>Submit</button>
+            <button type="submit"> Submit</button>
           </div>
         </form>
       </div>
