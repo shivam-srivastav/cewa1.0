@@ -104,7 +104,7 @@ const Home = () => {
             <hr />
             <h3>Become a part of CEWA</h3>
             <div>
-              <Link to="https://forms.gle/nhC3RKXS1Vqf7Jhq9">
+              <Link to="./membership">
                 <span>
                   <p className="joinus">JOIN US</p>
                 </span>
