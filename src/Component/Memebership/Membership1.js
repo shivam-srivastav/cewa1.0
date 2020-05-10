@@ -32,7 +32,7 @@ class Membership extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "membership", ...this.state }),
     })
-      .then(() => alert("Success!"))
+      .then(() => alert("Success! "))
       .catch((err) => alert(err));
   };
   render() {
@@ -110,7 +110,13 @@ class Membership extends React.Component {
               />
             </div>
             <div className="Mem">
-              <input type="email" name="email" size="25" placeholder="Email" />
+              <input
+                type="email"
+                name="email"
+                required
+                size="25"
+                placeholder="Email"
+              />
             </div>
           </div>
           <div className="pair">
@@ -125,7 +131,7 @@ class Membership extends React.Component {
             </div>
           </div>
           <div className="para">
-            <input type="checkbox"></input>
+            <input type="checkbox" required></input>
             <p>
               By filling up this form and verify Captcha, you have accepted to
               be a member of Children’s Endorse Welfare Association and will
@@ -134,7 +140,7 @@ class Membership extends React.Component {
             </p>
           </div>
           <div className="logo">
-            <div data-netlify-recaptcha="true"></div>
+            <div data-netlify-recaptcha="true" required></div>
           </div>
           <div className="submit">
             <button type="submit"> Submit</button>
