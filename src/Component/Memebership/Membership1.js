@@ -42,11 +42,11 @@ class Membership extends React.Component {
           <h2>Membership Form</h2>
         </div>
         <form
-          netlify
+          name="membership"
           onSubmit={this.onSubmitHandle}
           onChange={this.onClickHandle}
         >
-          {/* <input type="hidden" name="form-name" value="membership" /> */}
+          <input type="hidden" name="form-name" value="membership" />
           <div className="Logo">
             <img src={logo} alt="logo" />
           </div>
