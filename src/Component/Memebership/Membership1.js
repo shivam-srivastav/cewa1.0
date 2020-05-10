@@ -94,7 +94,7 @@ class Membership extends React.Component {
             <div className="Mem">
               <input
                 type="text"
-                name="Current Address"
+                name="currentAddress"
                 size="25"
                 placeholder="Current Address"
               />
@@ -138,9 +138,6 @@ class Membership extends React.Component {
               have to actively participate in all the events conducted by the
               association.
             </p>
-          </div>
-          <div className="logo">
-            <div data-netlify-recaptcha="true" required></div>
           </div>
           <div className="submit">
             <button type="submit"> Submit</button>
