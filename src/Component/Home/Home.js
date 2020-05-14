@@ -11,7 +11,7 @@ import g5 from "../../Assets/image/g5.jpg";
 import g8 from "../../Assets/image/g6.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "react-router-dom";
-
+import { Tag1, Tag2, Tag3 } from "../../Assets/Data/data";
 import "./Home.scss";
 
 const Home = () => {
@@ -120,24 +120,15 @@ const Home = () => {
       <div className="Event-update">
         <div className="event1">
           <img src={g3} alt="event1" />
-          <p>
-            Smile Foundation launches program to provide support to families
-            affected by lockdown
-          </p>
+          <p>{Tag1}</p>
         </div>
         <div className="event1">
           <img src={g5} alt="event2" />
-          <p>
-            Smile Foundation's Child for Child department's national campaign:
-            "Students say….Let's Win the Fight over Corona"
-          </p>
+          <p>{Tag2}</p>
         </div>
         <div className="event1">
           <img src={g8} alt="event3" />
-          <p>
-            Corporate and Youth run for child education at Tata Mumbai Marathon
-            2020
-          </p>
+          <p>{Tag3}</p>
         </div>
       </div>
     </div>
