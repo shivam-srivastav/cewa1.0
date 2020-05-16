@@ -1,6 +1,6 @@
 import React from "react";
 import "./Membership.scss";
-import logo from "../../Assets/image/cewa.svg";
+import logo from "../../Assets/image/cewa.png";
 import { Redirect } from "react-router-dom";
 
 const encode = (data) => {
@@ -24,6 +24,15 @@ class Membership extends React.Component {
       description: "",
     };
   }
+  handleSaveToPC = (jsonData) => {
+    const fileData = JSON.stringify(jsonData);
+    const blob = new Blob([fileData], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.download = "filename.json";
+    link.href = url;
+    link.click();
+  };
   onClickHandle = (e) => {
     this.setState({ [e.target.name]: e.target.value });
   };
@@ -34,6 +43,7 @@ class Membership extends React.Component {
       body: encode({ "form-name": "membership", ...this.state }),
     })
       .then(() => alert("Success! "))
+      .then(this.handleSaveToPC(this.state))
       .then(() => Redirect("../"))
       .catch((err) => alert(err));
   };

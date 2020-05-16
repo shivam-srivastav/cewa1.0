@@ -1,14 +1,13 @@
 .Nav {
   display: flex;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: #292323;
   .Nav-title {
-    margin-right: 4rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
+    margin-left: 1rem;
+    // margin-top: 0.5rem;
     display: flex;
     img {
-      width: 6rem;
+      width: 8rem;
     }
   }
   .Nav-li {
@@ -21,19 +20,33 @@
     li {
       z-index: 16;
       list-style: none;
-      margin: 2rem;
-      background-color: #c4c187;
-      padding: 0.25rem 1rem 0.25rem 1rem;
-      border: 1px solid #dadada;
+      margin: 1rem;
+      text-align: center;
+      margin-bottom: 0rem;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      width: 8rem;
+      background: linear-gradient(
+        90deg,
+        rgba(248, 145, 44, 1) 0%,
+        rgba(254, 211, 56, 1) 100%
+      );
+      border: 2px solid #292323;
       cursor: pointer;
-      color: #495356;
+      color: #292323;
     }
   }
   .Nav-search {
-    margin: 2rem;
+    margin: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    span {
+      margin-right: 0.5rem;
+    }
   }
   .Nav-button {
     display: none;
+    color: white;
   }
 }
 @media (max-width: 800px) {
@@ -42,7 +55,7 @@
       display: none;
     }
     .Nav-search {
-      display: none;
+      display: inline;
     }
     .Nav-button {
       display: flex;
@@ -52,7 +65,7 @@
     }
     .Nav-button-list {
       position: absolute;
-      background-color: #ffff;
+      background-color: #292323;
       // border: 1px solid black;
       left: 0%;
       z-index: 3;
@@ -67,11 +80,15 @@
         margin: 0.2rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        background-color: #bdb979;
+        background: linear-gradient(
+          90deg,
+          rgba(248, 145, 44, 1) 0%,
+          rgba(254, 211, 56, 1) 100%
+        );
         padding: 0.25rem 0.2rem 0.25rem 0.2rem;
-        border: 1px solid #dadada;
+        border: 1px solid #292323;
         cursor: pointer;
-        color: #495356;
+        color: #292323;
       }
     }
   }
