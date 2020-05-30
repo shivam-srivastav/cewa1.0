@@ -2,12 +2,17 @@
   display: flex;
   justify-content: space-between;
   background-color: #292323;
+  border-bottom: 4px solid black;
   .Nav-title {
     margin-left: 1rem;
     // margin-top: 0.5rem;
     display: flex;
     img {
-      width: 8rem;
+      width: 10rem;
+      position: absolute;
+      z-index: 1;
+      left: -1px;
+      top: -13px;
     }
   }
   .Nav-li {
@@ -36,10 +41,24 @@
       color: #292323;
     }
   }
-  .Nav-search {
+  .Counter {
     margin: 1rem;
     margin-left: 1rem;
     margin-bottom: 0;
+    .counter-text {
+      p {
+        margin: 0;
+        font-weight: 600;
+        font-size: 0.9rem;
+      }
+      color: white;
+      padding: 0;
+      margin: 0;
+      line-height: 1rem;
+    }
+    img {
+      margin: 0;
+    }
     span {
       margin-right: 0.5rem;
     }

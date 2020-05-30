@@ -33,15 +33,18 @@ const Nav = () => {
           <li>Contact Us</li>
         </Link>
       </div>
-      <div className="Nav-search">
-        <a href="https://www.hitwebcounter.com" target="blank">
+      <div className="Counter">
+        <div className="counter-text">
+          <p>Total Visitor</p>
+        </div>
+        <div className="Counter-image">
           <img
-            src="https://hitwebcounter.com/counter/counter.php?page=7348143&style=0006&nbdigits=5&type=ip&initCount=0"
-            title="Web Counter"
-            Alt="counter free"
+            src="https://counter2.stat.ovh/private/freecounterstat.php?c=zhupfbms3z214j3mazufyphtq7eylhze"
             border="0"
+            title="free counter"
+            alt="free counter"
           />
-        </a>
+        </div>
       </div>
       <div className="Nav-button" onClick={onHandleButton}>
         <h1>≡</h1>

@@ -1,0 +1,33 @@
+.carousel-caption {
+  top: 40%;
+  z-index: 2;
+}
+.corousel-h1 {
+  color: #ffc000;
+  font-weight: 600;
+  font-size: 5.2rem;
+  z-index: 2;
+  top: 40%;
+  line-height: 5.2rem;
+}
+.corousel-p {
+  color: #c4c187;
+}
+@media (max-width: 470px) {
+  .carousel-caption {
+    top: 30%;
+  }
+
+  .corousel-p {
+    color: #c4c187;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+  .corousel-h1 {
+    color: #ffc000;
+    font-weight: 600;
+    font-size: 2.2rem;
+    top: 30%;
+    line-height: 2.2rem;
+  }
+}
