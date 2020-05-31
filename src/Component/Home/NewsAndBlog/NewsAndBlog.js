@@ -2,12 +2,15 @@ import React from "react";
 import blog1 from "../../../Assets/image/blog1.jpg";
 import Calender from "../../../Assets/image/Calender.svg";
 import "./NewsAndBlog.scss";
+import Data from "./data";
+import data from "./data";
 class NewsAndBlog extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
   render() {
+    console.log(Data);
     return (
       <div className="newsandblog">
         <div className="News">
@@ -17,13 +20,13 @@ class NewsAndBlog extends React.Component {
           </div>
           <div className="item">
             <div className="date">
-              <span>25</span>
+              <span>{data.news.date.day}</span>
               <span className="month">
                 <hr />
                 <p>
-                  May
+                  {data.news.date.month}
                   <br />
-                  2020
+                  {data.news.date.year}
                 </p>
               </span>
             </div>
@@ -32,14 +35,8 @@ class NewsAndBlog extends React.Component {
                 {" "}
                 <span> ≡ </span>Cewa News
               </p>
-              <h5>
-                India is fighting Covid-19 like Liberia fought the Ebola
-                outbreak
-              </h5>
-              <p>
-                Community based organisations have mounted Covid-19 responses by
-                supporting quarantine facilities and providing ...{" "}
-              </p>
+              <h5>{data.news.title}</h5>
+              <p>{data.news.body}</p>
             </div>
             <hr />
           </div>
@@ -54,22 +51,21 @@ class NewsAndBlog extends React.Component {
               <img src={blog1} alt="blog1"></img>
             </div>
             <div className="item-text">
-              <h3>Disaster struck caregivers: Revisiting Cyclone Fani</h3>
+              <h3>{data.blog.title}</h3>
               <div className="user">
                 <img
                   src="https://img.icons8.com/office/30/000000/user.png"
                   alt="user"
                 />
-                <p>Shivam Srivastava</p>
+                <p>{data.blog.user}</p>
               </div>
               <div className="date">
                 <img src={Calender} alt="calender" />
-                <p>26-May-2020</p>
+                <p>{data.blog.date}</p>
               </div>
               <div className="article">
                 <p>
-                  India’s eastern front in April of 2019 encountered one of its
-                  biggest, strongest tropical cyclone to have stuck.....{" "}
+                  {data.blog.article}
                   <span>Read more</span>{" "}
                 </p>
               </div>
