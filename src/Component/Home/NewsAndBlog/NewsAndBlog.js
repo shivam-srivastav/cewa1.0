@@ -2,15 +2,17 @@ import React from "react";
 import blog1 from "../../../Assets/image/blog1.jpg";
 import Calender from "../../../Assets/image/Calender.svg";
 import "./NewsAndBlog.scss";
-import Data from "./data";
 import data from "./data";
+import { Link } from "react-router-dom";
 class NewsAndBlog extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
+
   render() {
-    console.log(Data);
+    this.props.handleUrl(data.news.title);
+    console.log(this.props);
     return (
       <div className="newsandblog">
         <div className="News">
@@ -35,7 +37,9 @@ class NewsAndBlog extends React.Component {
                 {" "}
                 <span> ≡ </span>Cewa News
               </p>
-              <h5>{data.news.title}</h5>
+              <Link to={`news/${data.news.title}`}>
+                <h5>{data.news.title}</h5>
+              </Link>
               <p>{data.news.body}</p>
             </div>
             <hr />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Home from "./Component/Home/Home";
 import Nav from "./Component/Nav/Nav";
@@ -7,13 +7,19 @@ import Contact from "./Component/Contact Us/Contact";
 import Gallery from "./Component/Gallery/Gallery";
 import About from "./Component/About/About";
 import Membership from "./Component/Memebership/Membership1";
+import News from "./Component/Home/NewsAndBlog/News/News";
 function App() {
+  const [url, seturl] = useState("");
+  const handleUrl = (data) => {
+    seturl(data);
+  };
+  console.log(url);
   return (
     <Router>
       <Nav />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home handleUrl={handleUrl} />
           <Footer />
         </Route>
         <Route exact path="/gallery">
@@ -27,6 +33,9 @@ function App() {
         </Route>
         <Route exact path="/membership">
           <Membership />
+        </Route>
+        <Route exact path={`/news/${url}`}>
+          <News />
         </Route>
       </Switch>
     </Router>

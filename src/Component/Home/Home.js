@@ -9,13 +9,13 @@ import NewsAndBlog from "./NewsAndBlog/NewsAndBlog";
 import Vision from "./Vision/Vision";
 import CarouselDisplay from "./CarouselDisplay/CarouselDisplay";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div className="Home">
       <CarouselDisplay />
       <div className="Home-vision">
         <Vision />
-        <NewsAndBlog />
+        <NewsAndBlog handleUrl={props.handleUrl} />
         {/* <div className="NewsFeed">
           <h1>Daily Upadtes</h1>
           <div className="post">
