@@ -47,7 +47,7 @@ class NewsAndBlog extends React.Component {
         </div>
         <div className="blog">
           <div className="head">
-            <h2>Recent Blogs</h2>
+            <h2>Recent Events</h2>
             <h5>View All</h5>
           </div>
           <div className="item">
@@ -56,13 +56,13 @@ class NewsAndBlog extends React.Component {
             </div>
             <div className="item-text">
               <h3>{data.blog.title}</h3>
-              <div className="user">
+              {/* <div className="user">
                 <img
                   src="https://img.icons8.com/office/30/000000/user.png"
                   alt="user"
                 />
                 <p>{data.blog.user}</p>
-              </div>
+              </div> */}
               <div className="date">
                 <img src={Calender} alt="calender" />
                 <p>{data.blog.date}</p>
@@ -75,6 +75,7 @@ class NewsAndBlog extends React.Component {
               </div>
             </div>
           </div>
+          <hr />
         </div>
       </div>
     );

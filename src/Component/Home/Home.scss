@@ -3,7 +3,8 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  background-color: #dadada;
+  background-color: #292323;
+  color: #fff;
 
   .Home-container-img {
     margin: 0;
@@ -19,9 +20,8 @@
 
   .Home-vision {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 2rem;
     margin-left: 8rem;
     margin-right: 8rem;
 
@@ -95,7 +95,6 @@
 
     .Home-vision {
       justify-content: center;
-      margin-top: 3rem;
       margin-left: 2rem;
       margin-right: 2rem;
       .vision-text {

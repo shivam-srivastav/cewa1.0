@@ -11,12 +11,12 @@ const data = {
       " If you can’t feed a hundred people, then feed just one.” Hunger is one of the greatest challenges to mankind in present world. Not everyone who is born, ",
   },
   blog: {
-    title: "Disaster struck caregivers: Revisiting Cyclone Fani",
+    title: "Learning kit Distribution",
     img: "dfsdkfjls",
     user: "Shivam Srivastava",
     date: "26-May-2020",
     article:
-      "India’s eastern front in April of 2019 encountered one of its biggest, strongest tropical cyclone to have stuck.....",
+      "Ever since we’ ve known the world and could understand things, we were privileged with the ocean of knowledge and enshrined to education.However,  ...",
   },
 };
 export default data;
