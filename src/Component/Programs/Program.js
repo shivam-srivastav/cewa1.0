@@ -9,10 +9,10 @@ class Program extends React.Component {
     return (
       <div className="programs">
         <div className="heading">
-          <h1> Programs </h1>{" "}
+          <h1> Programs </h1>
         </div>
         <div className="section">
-          <h2> #1 Learning kit Distribution </h2>{" "}
+          <h2> #1 Learning kit Distribution </h2>
           <p>
             Ever since we’ ve known the world and could understand things, we
             were privileged with the ocean of knowledge and enshrined to
@@ -22,8 +22,8 @@ class Program extends React.Component {
             members endowed their poise towards the Right to Education, and
             distributed illustrious learning kits to the impoverished.The
             illiteracy and poverty holds back these impecunious kids, so let’ s
-            ease it for them, and provide them the weapon of knowledge.{" "}
-          </p>{" "}
+            ease it for them, and provide them the weapon of knowledge.
+          </p>
         </div>
       </div>
     );

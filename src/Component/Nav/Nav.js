@@ -11,9 +11,9 @@ const Nav = () => {
   return (
     <div className="Nav">
       <div className="Nav-title">
-        <Link to="./">
+        <a href="https://www.cewa.ga">
           <img src={logo} alt="logo" />
-        </Link>
+        </a>
       </div>
       <div className="Nav-li">
         <Link to="./about">
