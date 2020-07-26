@@ -1,0 +1,50 @@
+.bottomHome {
+  width: 80%;
+  height: 200px;
+  position: relative;
+  color: #ffc000;
+  display: flex;
+  margin: auto;
+  margin-bottom: 3rem;
+  .textBottom {
+    border-radius: 12px;
+    display: flex;
+    justify-content: right;
+    h2 {
+      margin: 0;
+      padding: 0;
+      align-self: center;
+      margin-left: 700px;
+      width: 15rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      font-family: lato;
+      cursor: pointer;
+      border: 4px solid #292323;
+      padding: 1rem;
+      a {
+        text-decoration: none;
+        color: #ffc000;
+      }
+    }
+    h2:hover {
+      border-color: #ffc000;
+      // color: #292323;
+      transform: scale3d(1.5);
+    }
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    background-color: #29232382;
+    border-radius: 12px;
+  }
+  .back {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-size: cover;
+    background-image: url("../../../Assets/image/bottom.jpg");
+  }
+}

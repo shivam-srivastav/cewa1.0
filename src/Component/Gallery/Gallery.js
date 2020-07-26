@@ -16,7 +16,7 @@ class Gallery extends React.Component {
           <div className="text"></div>
         </div>
         <div className="top">
-          <h3>Event Name</h3> <h4>Date of Event</h4>
+          <h3>Lakhimpur Kheri Kit Distribution</h3> <h4>July 2020</h4>
         </div>
         <div className="photoFrame">
           <div className="left">

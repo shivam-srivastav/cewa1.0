@@ -2,10 +2,10 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./CarouselDisplay.scss";
 
-import slide1 from "../../../Assets/image/slide1.jpg";
-import slide2 from "../../../Assets/image/slide2.jpg";
-import slide3 from "../../../Assets/image/slide3.jpg";
-import slide4 from "../../../Assets/image/slide4.jpg";
+import slide1 from "../../../Assets/image/slide1.jpeg";
+import slide2 from "../../../Assets/image/slide2.jpeg";
+import slide3 from "../../../Assets/image/slide3.jpeg";
+import slide4 from "../../../Assets/image/slide4.jpeg";
 
 class CarouselDisplay extends React.Component {
   constructor(props) {
@@ -14,8 +14,8 @@ class CarouselDisplay extends React.Component {
   }
   render() {
     return (
-      <Carousel className="carousel">
-        <Carousel.Item>
+      <Carousel className="carosuel">
+        <Carousel.Item className="">
           <img className="d-block w-100" src={slide1} alt="First slide" />
           <Carousel.Caption>
             <h3 className="corousel-h1">Face of Truth</h3>
@@ -45,7 +45,7 @@ class CarouselDisplay extends React.Component {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img className="d-block w-100" src={slide4} alt="Third slide" />
 
           <Carousel.Caption>
@@ -54,7 +54,7 @@ class CarouselDisplay extends React.Component {
               Children must be taught how to think, not what to think..
             </p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     );
   }
