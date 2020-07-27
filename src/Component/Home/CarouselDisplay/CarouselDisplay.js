@@ -5,7 +5,7 @@ import "./CarouselDisplay.scss";
 import slide1 from "../../../Assets/image/slide1.jpeg";
 import slide2 from "../../../Assets/image/slide2.jpeg";
 import slide3 from "../../../Assets/image/slide3.jpeg";
-import slide4 from "../../../Assets/image/slide4.jpeg";
+// import slide4 from "../../../Assets/image/slide4.jpeg";
 
 class CarouselDisplay extends React.Component {
   constructor(props) {
