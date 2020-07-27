@@ -1,8 +1,8 @@
 import React from "react";
-import g3 from "../../Assets/image/g3.jpg";
-import g5 from "../../Assets/image/g5.jpg";
-import g8 from "../../Assets/image/g6.jpg";
-import { Tag1, Tag2, Tag3 } from "../../Assets/Data/data";
+// import g3 from "../../Assets/image/g3.jpg";
+// import g5 from "../../Assets/image/g5.jpg";
+// import g8 from "../../Assets/image/g6.jpg";
+// import { Tag1, Tag2, Tag3 } from "../../Assets/Data/data";
 import "./Home.scss";
 
 import NewsAndBlog from "./NewsAndBlog/NewsAndBlog";
