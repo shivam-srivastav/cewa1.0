@@ -13,7 +13,7 @@ const Contact = () => {
       <h1> Contact Us</h1>
       <div className="main">
         <div className="main-logo">
-          <img src={cewa} />
+          <img src={cewa} alt="contact" />
         </div>
         <div className="main-text">
           <ul>
