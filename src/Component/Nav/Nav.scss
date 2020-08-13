@@ -1,8 +1,7 @@
 .Nav {
   display: flex;
   justify-content: space-between;
-  background-color: #292323;
-  border-bottom: 4px solid black;
+  background-color: #fafafa;
   .Nav-title {
     margin-left: 1rem;
     // margin-top: 0.5rem;
@@ -17,7 +16,9 @@
   }
   .Nav-li {
     display: flex;
-    justify-content: left;
+    margin-right: 20%;
+    /* justify-content: flex-start; */
+    align-self: center;
     z-index: 16;
     a {
       text-decoration: none;
@@ -29,16 +30,13 @@
       text-align: center;
       margin-bottom: 1rem;
       padding: 0.5rem;
-      border-radius: 1rem;
+      border-radius: 6px;
       width: 8rem;
-      background: linear-gradient(
-        90deg,
-        rgba(248, 145, 44, 1) 0%,
-        rgba(254, 211, 56, 1) 100%
-      );
-      border: 2px solid #292323;
+      /* background: linear-gradient(90deg, #f8912c 0%, #fed338 100%); */
+      /* border: 2px solid #292323; */
+      background: #dddddd;
       cursor: pointer;
-      color: #292323;
+      color: #000;
     }
   }
   .Counter {
@@ -66,7 +64,7 @@
   }
   .Nav-button {
     display: none;
-    color: white;
+    color: #000;
   }
 }
 @media (max-width: 800px) {
@@ -88,7 +86,7 @@
     }
     .Nav-button-list {
       position: absolute;
-      background-color: #292323;
+      background-color: #fafafa;
       // border: 1px solid black;
       left: 0%;
       z-index: 20;
@@ -103,15 +101,10 @@
         margin: 0.2rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        background: linear-gradient(
-          90deg,
-          rgba(248, 145, 44, 1) 0%,
-          rgba(254, 211, 56, 1) 100%
-        );
+        background: #dadada;
         padding: 0.25rem 0.2rem 0.25rem 0.2rem;
-        border: 1px solid #292323;
         cursor: pointer;
-        color: #292323;
+        color: #000;
       }
     }
   }

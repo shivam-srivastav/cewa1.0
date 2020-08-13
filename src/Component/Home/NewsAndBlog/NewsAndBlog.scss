@@ -6,12 +6,12 @@
     flex-wrap: wrap;
     float: left;
     margin-right: 7%;
-    font-family: "TrebuchetMS";
+    font-family: "montserrat";
     width: 46.5%;
     min-width: 300px;
     margin-bottom: 1rem;
     .head {
-      color: #f60;
+      color: #f6ab6c;
       display: flex;
       justify-content: space-between;
       h2 {
@@ -26,12 +26,12 @@
       display: flex;
       margin-top: 1rem;
       padding-bottom: 1rem;
-      border-bottom: 1px solid #f1a048;
+      border-bottom: 1px solid #68b0ab;
       .date {
         display: flex;
         flex-direction: column;
-        background: radial-gradient(circle, #ffc000bd 16%, #f8902cbd 85%);
-        color: #fff;
+        background: #dddddd;
+        color: #000;
         display: inline-block;
         margin-right: 3%;
         min-height: 108px;
@@ -43,7 +43,7 @@
         span {
           font-size: 28px;
           hr {
-            background-color: #f1a048;
+            background-color: #68b0ab;
           }
         }
         .month {
@@ -55,7 +55,7 @@
         }
       }
       .details {
-        color: #e9ecef;
+        color: #000;
         font-size: 13px;
         display: inline-block;
         line-height: 18px;
@@ -69,26 +69,26 @@
           text-decoration: none;
         }
         h5 {
-          font-family: "TrebuchetMS";
+          font-family: "montserrat";
           margin-bottom: 0px;
           cursor: pointer;
           font-size: 20px;
-          color: #f8f9fa;
+          color: #8fc0a9;
         }
       }
     }
   }
   hr {
-    background-color: #f1a048;
+    background-color: #68b0ab;
   }
   .blog {
     float: left;
     width: 46.5%;
-    font-family: "TrebuchetMS";
+    font-family: "montserrat";
     flex-wrap: wrap;
     .head {
       display: flex;
-      color: #f60;
+      color: #f6ab6c;
       justify-content: space-between;
       h2 {
         margin: 0;
@@ -114,7 +114,7 @@
         width: 70%;
         h3 {
           font-size: 1.2rem;
-          color: #f8f9fa;
+          color: #8fc0a9;
           margin-bottom: 1;
         }
 
@@ -127,7 +127,7 @@
           }
           p {
             margin: 0;
-            color: #acacac;
+            color: #000;
             margin-left: 0.5rem;
             font-size: 10px;
             letter-spacing: 0.1rem;
@@ -145,7 +145,7 @@
           }
           p {
             margin: 0;
-            color: #acacac;
+            color: #000;
             margin-left: 0.5rem;
             font-size: 10px;
             letter-spacing: 0.1rem;
@@ -156,13 +156,13 @@
           margin-top: 0.2rem;
           p {
             font-size: 13px;
-            color: #e9ecef;
+            color: #000;
             line-height: 1rem;
             margin-bottom: 0;
             font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
               sans-serif;
             span {
-              color: #f60;
+              color: #f90;
               font-weight: 400;
               cursor: pointer;
             }

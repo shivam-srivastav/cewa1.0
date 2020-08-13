@@ -7,6 +7,8 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
+    "google-map-react": "^2.0.8",
+    "google-maps-react": "^2.0.6",
     "node-sass": "^4.14.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
@@ -15,6 +17,7 @@
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
+    "react-simple-maps": "^2.1.2",
     "react-transition-group": "^4.4.1"
   },
   "scripts": {

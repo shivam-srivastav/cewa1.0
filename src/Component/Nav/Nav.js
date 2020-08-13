@@ -33,19 +33,19 @@ const Nav = () => {
           <li>Contact Us</li>
         </Link>
       </div>
-      <div className="Counter">
+      {/* <div className="Counter">
         <div className="counter-text">
           <p>Total Visitor</p>
         </div>
-        <div className="Counter-image">
+        {/* <div className="Counter-image">
           <img
             src="https://counter2.stat.ovh/private/freecounterstat.php?c=zhupfbms3z214j3mazufyphtq7eylhze"
             border="0"
             title="free counter"
             alt="free counter"
           />
-        </div>
-      </div>
+        </div> */}
+      {/* </div> } */}
       <div className="Nav-button" onClick={onHandleButton}>
         <h1>≡</h1>
         {NavButton && (

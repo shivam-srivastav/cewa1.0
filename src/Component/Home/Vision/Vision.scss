@@ -4,6 +4,7 @@
   margin-top: 5rem;
   display: flex;
   // flex-wrap: wrap;
+  font-family: "montserrat";
   padding-bottom: 2rem;
   .vision-img {
     max-height: 33rem;
@@ -14,9 +15,9 @@
     flex-direction: column;
 
     img {
-      max-width: 500px;
-      border: 2px solid #f60;
-      padding: 1rem;
+      max-width: 550px;
+      // border: 2px solid #f6ab6c;
+      // padding: 1rem;
       margin-top: 1rem;
     }
     img:hover {
@@ -30,7 +31,7 @@
       font-family: "TrebuchetMS";
       font-weight: 600;
       text-align: center;
-      color: #f60;
+      color: #f6ab6c;
     }
     p {
       font-size: 20px;
@@ -48,9 +49,9 @@
       font-size: 30px;
       text-transform: uppercase;
       margin-bottom: 10px;
-      font-family: "TrebuchetMS";
+      font-family: "montserrat";
       font-weight: 600;
-      color: #f60;
+      color: #f6ab6c;
       text-align: center;
     }
     p {
@@ -75,7 +76,7 @@
         p {
           margin-top: 0.1rem;
           text-transform: capitalize;
-          color: #f60;
+          color: #f6ab6c;
         }
         img {
           width: 2.5rem;

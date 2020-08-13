@@ -9,13 +9,13 @@
   .textBottom {
     border-radius: 12px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     h2 {
       margin: 0;
       padding: 0;
       align-self: center;
-      margin-left: 700px;
-      width: 15rem;
+      display: flex;
+      font-size: 1.8rem;
       font-weight: 600;
       letter-spacing: 2px;
       font-family: lato;
@@ -24,11 +24,11 @@
       padding: 1rem;
       a {
         text-decoration: none;
-        color: #ffc000;
+        color: #68b0ab;
       }
     }
     h2:hover {
-      border-color: #ffc000;
+      border-color: #68b0ab;
       // color: #292323;
       transform: scale3d(1.5);
     }
@@ -37,7 +37,7 @@
     height: 100%;
     background-size: cover;
     position: absolute;
-    background-color: #29232382;
+    background-color: #faf3ddc7;
     border-radius: 12px;
   }
   .back {
