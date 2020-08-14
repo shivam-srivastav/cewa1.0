@@ -1,10 +1,12 @@
 import React from "react";
+import about from "../../Assets/image/about.svg";
 import "./About.scss";
 const About = () => {
   return (
     <div className="about">
       <h1>About Us</h1>
       <div>
+        <img src={about} alt="about" />
         <p>
           Children Endorse Welfare Association is a non-profit organization
           which focuses on the sustainable development of the underprivileged

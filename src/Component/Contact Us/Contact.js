@@ -1,5 +1,5 @@
 import React from "react";
-import cewa from "../../Assets/image/cewa.png";
+import cewa from "../../Assets/image/contact.svg";
 import {
   FcAddressBook,
   FcCellPhone,

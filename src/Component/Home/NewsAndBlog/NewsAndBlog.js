@@ -1,5 +1,5 @@
 import React from "react";
-import blog1 from "../../../Assets/image/blog1.jpg";
+import blog1 from "../../../Assets/image/photos/NEW IMAGE 1.jpg";
 import Calender from "../../../Assets/image/Calender.svg";
 import "./NewsAndBlog.scss";
 import data from "./data";

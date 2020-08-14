@@ -4,7 +4,7 @@ import "./Vision.scss";
 import facebook from "../../../Assets/image/facebook.svg";
 import instagram from "../../../Assets/image/instagram.svg";
 import twitter from "../../../Assets/image/twitter.svg";
-import slide4 from "../../../Assets/image/slide2.jpeg";
+import slide4 from "../../../Assets/image/photos/pexels-artem-beliaikin-1153976.jpg";
 
 class Vision extends React.Component {
   constructor(props) {

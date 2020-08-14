@@ -8,7 +8,7 @@ const data = {
     },
     title: "CHILDREN’S ENDORSE WELFARE ASSOCIATION",
     body:
-      " If you can’t feed a hundred people, then feed just one.” Hunger is one of the greatest challenges to mankind in present world.",
+      " If you can’t feed a hundred people, then feed just one.” Hunger is one of the greatest challenges to mankind in present world.Not everyone who is born, survives.",
   },
   blog: {
     title: "Learning kit Distribution",

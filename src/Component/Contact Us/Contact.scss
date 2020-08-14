@@ -1,11 +1,15 @@
 .contact {
-  background-color: #292323;
+  background-color: #fdfdfd;
   height: 100vh;
   h1 {
-    color: #fed337;
     width: 15rem;
     margin: auto;
+    font-size: 2.5;
+    color: #000;
+    font-weight: 500;
+    padding-bottom: 1rem;
     padding-top: 1rem;
+    font-family: montserrat;
   }
   .main {
     display: flex;
@@ -18,10 +22,10 @@
       height: 400px;
     }
     .main-text {
-      color: #fff;
+      color: #000;
       width: 100%;
       height: 400px;
-      background-color: #292323;
+      background-color: #fdfdfd;
       align-self: center;
     }
     ul {
@@ -31,7 +35,7 @@
       margin-top: 5rem;
       a {
         text-decoration: none;
-        color: #fff;
+        color: #000;
         outline: none;
       }
       li {
