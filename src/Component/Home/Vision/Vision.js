@@ -20,7 +20,7 @@ class Vision extends React.Component {
           <p>"Let the entire world be happy"</p>
         </div>
         <div className="vision-body">
-          <h2>Vision</h2>
+          <h2>Our Vision</h2>
           <p>
             To work for the betterment of the underprivileged children so that
             they can enlighten the future of the world’s largest Democracy.
