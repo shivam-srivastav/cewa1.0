@@ -23,10 +23,13 @@
       }
     }
     .item {
+      transition: all 500ms ease-in;
       display: flex;
       margin-top: 1rem;
+      background: #6cb0ab1c;
+      height: 161px;
       padding-bottom: 1rem;
-      border-bottom: 1px solid #68b0ab;
+      // border-bottom: 1px solid #68b0ab;
       .date {
         display: flex;
         flex-direction: column;
@@ -99,7 +102,10 @@
       }
     }
     .item {
+      transition: all 500ms ease-in;
       cursor: pointer;
+      height: 144px;
+      background: #f6ab6c1f;
       margin-top: 1rem;
       display: flex;
       // background-color: #f2;
@@ -188,5 +194,25 @@
         }
       }
     }
+  }
+}
+@media (max-width: 1920px) {
+  .blogMain {
+    overflow: hidden;
+    height: 146px;
+  }
+  .NewsMain {
+    overflow-y: hidden;
+    height: 146px;
+  }
+}
+@media (max-width: 1366px) {
+  .blogMain {
+    overflow: hidden;
+    height: 161px;
+  }
+  .NewsMain {
+    overflow-y: hidden;
+    height: 161px;
   }
 }
