@@ -8,7 +8,7 @@ import Gallery from "./Component/Gallery/Gallery";
 import About from "./Component/About/About";
 import Membership from "./Component/Memebership/Membership1";
 import News from "./Component/Home/NewsAndBlog/News/News";
-import Program from "./Component/Programs/Program";
+import Events from "./Component/Events/Events";
 function App() {
   const [url, seturl] = useState("");
   const handleUrl = (data) => {
@@ -23,8 +23,8 @@ function App() {
           <Home handleUrl={handleUrl} />
           <Footer />
         </Route>
-        <Route exact path="/programs">
-          <Program />
+        <Route exact path="/events">
+          <Events />
         </Route>
         <Route exact path="/gallery">
           <Gallery />

@@ -18,7 +18,9 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-simple-maps": "^2.1.2",
-    "react-transition-group": "^4.4.1"
+    "react-slick": "^0.27.10",
+    "react-transition-group": "^4.4.1",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
