@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 
 import "./Vision.scss";
 
-import img from "../../../Assets/image/vision.jpg";
+import img from "../../../Assets/image/photos/pexels-artem-beliaikin-1153976.jpg";
 import img2 from "../../../Assets/image/driveImg.jpg";
 import quote from "../../../Assets/image/quote.png";
 

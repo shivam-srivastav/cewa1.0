@@ -103,7 +103,7 @@
       }
     }
     .item {
-      transition: all 500ms ease-in;
+      transition: all 700ms ease-in;
       cursor: pointer;
       height: 144px;
       background: #f6ab6c1f;
@@ -200,20 +200,32 @@
 @media (max-width: 1920px) {
   .blogMain {
     overflow: hidden;
-    height: 146px;
+    height: 438px;
+    .item {
+      .item-img {
+        height: 146px;
+      }
+    }
   }
   .NewsMain {
     overflow-y: hidden;
-    height: 146px;
+    height: 438px;
   }
 }
 @media (max-width: 1366px) {
   .blogMain {
     overflow: hidden;
-    height: 161px;
+    height: 463px;
+    .item {
+      .item-img {
+        img {
+          max-height: 142px;
+        }
+      }
+    }
   }
   .NewsMain {
     overflow-y: hidden;
-    height: 161px;
+    height: 463px;
   }
 }
