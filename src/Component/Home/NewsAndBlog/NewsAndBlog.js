@@ -15,7 +15,7 @@ class NewsAndBlog extends React.Component {
   componentWillMount = async () => {
     const timer = setInterval(() => {
       console.log(this.state.counter);
-      if (this.state.counter < data.blog.length - 1)
+      if (this.state.counter < data.blog.length - 2)
         this.setState({
           style: `translateY(${-161 * this.state.counter}px)`,
           NewsStyle: `translateY(${
@@ -41,6 +41,30 @@ class NewsAndBlog extends React.Component {
             <h5>View All</h5>
           </div>
           <div className="NewsMain">
+            <div className="item" style={{ transform: this.state.NewsStyle }}>
+              <div className="date">
+                <span>{data.news.date.day}</span>
+                <span className="month">
+                  <hr />
+                  <p>
+                    {data.news.date.month}
+                    <br />
+                    {data.news.date.year}
+                  </p>
+                </span>
+              </div>
+              <div className="details">
+                <p className="topic">
+                  {" "}
+                  <span> ≡ </span>Cewa News
+                </p>
+                <Link to={`news/${data.news.title}`}>
+                  <h5>{data.news.title}</h5>
+                </Link>
+                <p>{data.news.body}</p>
+              </div>
+              <hr />
+            </div>
             <div className="item" style={{ transform: this.state.NewsStyle }}>
               <div className="date">
                 <span>{data.news.date.day}</span>
