@@ -3,7 +3,13 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
+import { Link } from "react-router-dom";
+import {
+  IoLogoFacebook,
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoLinkedin,
+} from "react-icons/io";
 import "./Footer.scss";
 // import FacebookIcon from '@material-ui/icons/Facebook';
 // import InstagramIcon from '@material-ui/icons/Instagram';
@@ -24,9 +30,18 @@ class Footer extends React.Component {
           <Col className="SocialMedia">
             <h1>Social Media</h1>
             <div className="Icons">
-              <a href="./facebook.com">
-                <i class="fab fa-facebook-square"></i>
-              </a>
+              <Link to="https://www.facebook.com/NgoCEWA/">
+                <IoLogoFacebook size="2rem" color="#fff" />
+              </Link>
+              <Link to="https://twitter.com/NgoCewa">
+                <IoLogoTwitter size="2rem" color="#fff" />
+              </Link>
+              <Link to="https://www.instagram.com/_cewa_foundation_/">
+                <IoLogoInstagram size="2rem" color="#fff" />
+              </Link>
+              <Link to="https://www.linkedin.com/in/cewa-foundation-4667651b5/">
+                <IoLogoLinkedin size="2rem" color="#fff" />
+              </Link>
               {/* <a href="#"></a>
               <a href="#"></a> */}
             </div>

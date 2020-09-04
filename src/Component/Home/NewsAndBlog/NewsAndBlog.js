@@ -7,22 +7,24 @@ class NewsAndBlog extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      timer: false,
       counter: 0,
       style: `translateY(0)`,
-      NewsStyle: `translateY(${data.blog.length * 178 + "px"})`,
+      NewsStytimerle: `translateY(${data.blog.length * 178 + "px"})`,
     };
   }
   componentWillMount = async () => {
     const timer = setInterval(() => {
       console.log(this.state.counter);
       if (this.state.counter < data.blog.length - 2)
-        this.setState({
-          style: `translateY(${-161 * this.state.counter}px)`,
-          NewsStyle: `translateY(${
-            -178 * (data.blog.length - this.state.counter - 3)
-          }px)`,
-          counter: this.state.counter + 1,
-        });
+        this.state.timer &&
+          this.setState({
+            style: `translateY(${-161 * this.state.counter}px)`,
+            NewsStyle: `translateY(${
+              -178 * (data.blog.length - this.state.counter - 3)
+            }px)`,
+            counter: this.state.counter + 1,
+          });
       else {
         this.setState({ counter: 0 });
       }
@@ -243,7 +245,14 @@ class NewsAndBlog extends React.Component {
             <h2>Recent Events</h2>
             <h5>View All</h5>
           </div>
-          <div className="blogMain">
+          <div
+            className="blogMain"
+            onClick={() => {
+              this.setState({
+                timer: !this.state.timer,
+              });
+            }}
+          >
             {data.blog.map((item, i) => {
               return (
                 <div className="item" style={{ transform: this.state.style }}>
