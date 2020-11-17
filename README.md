@@ -68,7 +68,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 <footer>
-<p style="float:left; width: 20%;">
+<p style="float:left; width: 21%;">
 Copyright © Shivam Srivastav, 2020
 </p>
 </footer>
